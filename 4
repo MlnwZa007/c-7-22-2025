@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	int num = 30, i;
+	
+	if (num <=1)
+	   cout << "It is not prime number";
+	else{
+	   for (i=2;i<num;i++){
+		   if (num%i==0) {
+			   cout << "Not prime...."; break;
+			
+			}
+		}
+		if (i==num)
+		    cout << "prime number";
+	}
+
+
+}
